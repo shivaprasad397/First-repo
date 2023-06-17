@@ -1,0 +1,303 @@
+.navcontainer{
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* border:1px solid gray; */
+    padding: 5px;
+    height: 10vh;
+
+}
+*{
+    margin:0;
+    padding: 0;
+}
+/* .nav{
+    position:sticky;
+    top: 0;
+} */
+
+
+
+
+.body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+.navcontainer svg{
+    margin-top: 10px;
+    margin-left:40px;
+    flex-direction: column;
+}
+.navdescription{
+    display: flex;
+}
+.roadcaster{
+    background-image: url('https://edge.rode.com/images/page/1/modules/8061/DUO-Change-over-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 90vh;
+
+}
+.title-image{
+    width: 500px;
+    
+}
+.btn{
+    width: 3cm;
+    background-color: rgb(206, 195, 37);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: Roboto;
+}
+.btn-des{
+    color:rgb(206, 195, 37) ;
+}
+.roadcaster{
+    position: relative;
+}
+.description{
+    width: 600px;
+    font-family: Avenir-Medium,Inter,sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 200px 100px 0px 0px ;
+   
+}
+.ccc{
+    font-weight: 400;
+    color: lightgray;
+    padding: 2px;
+    font-family: Avenir-Medium,Inter,sans-serif;
+  
+}
+.btn{
+    background-color: #c0b090;
+    text-decoration: none;
+}
+.h5{
+    color: #c0b090;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.card-des{
+    padding: 20px;
+}
+/* card-2 */
+.card2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://edge.rode.com/images/page/1/modules/8063/StreamerX-Header-right.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+
+}
+.card2-des{
+    width: 500px;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    margin: 200px 10px 10px 200px;
+}
+.cc{
+    font-weight: 400;
+    color: color: rgba(0,0,0,) !important;
+    padding: 20px;
+    font-family: Avenir-Medium,Inter,sans-serif;
+}
+.card2{
+    position: relative;
+}
+.title-images{
+    padding:15px;
+}
+
+
+
+.card3{
+background-image: url('https://edge.rode.com/images/page/1/modules/8062/rode-pod-mic-usb-home-header-11614x4234-rgb-1921x700-8c89d38.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+text-align: center;
+width: 100vw;
+height: 100vh;
+
+}
+.maincard{
+    position: relative;
+}
+
+.podmicusb{
+width: 500px;
+color: black;
+position: absolute;
+top: 0;
+right: 0;
+margin: 200px 100px 0px 0px ;
+}
+.card-heading{
+    padding: 15px;
+    font-family: Avenir-Medium,Inter,sans-serif;
+    font-weight: 600
+}
+.rodeblogs{
+    color: #c0b090;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+
+}
+.blogcards{
+    width: 500px;
+    text-align: center;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px;
+    cursor: pointer;
+}
+.w-100{
+    width: 500px;
+    height: 500px;
+}
+.latest-rode{
+    color: #c0b090;
+    /* padding: 10px; */
+}
+.flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+/* .card22{
+     padding: 20px; 
+} */
+.latest-rod{
+    color: black;
+    font-size: 18px;
+    
+}
+.mb-0{
+    text-align: center;
+    color: #767676;
+}
+.w-1000{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img-fluid{
+    width: 1110px;
+    height: 277.7px;
+}
+.micro-p{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+}
+.w-1001{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+}
+.img-flui{
+    width: 1110px;
+    height: 277.7px;
+}
+.logo-rode{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+.footer2{
+    font-size: 1rem;
+}
+.mainfooter1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 100px;
+    gap: 38px;
+   
+    flex-wrap: wrap;
+    
+}
+.sign-in{
+    width: 300px;
+    font-family: Avenir-Medium,Inter,sans-serif;
+    font-size: 16px;
+    text-align: right;
+}
+.red{
+    color: #262626;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px
+}
+.para{
+    color: #484848;
+    font-size: 1rem;
+    transition: all 1s;
+    background-color: transparent;
+    box-sizing: border-box;
+    text-align: left;
+}
+.mainfooter11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mr{
+    text-decoration: none;
+    color: #484848;
+    font-size: .875rem;
+    letter-spacing: -.015em;
+    line-height: 24px;
+   
+}
+.d-none{
+    color: #484848;
+    font-size: .875rem;
+    letter-spacing: -.015em;
+    line-height: 24px;
+    text-decoration: none;
+    font-family: Inter,sans-serif;
+  font-weight: 400;
+
+}
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
